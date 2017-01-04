@@ -22,15 +22,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
-    @IBAction func redActionSlider(sender: AnyObject) {
+    @IBAction func redActionSlider(_ sender: AnyObject) {
         setColors()
     }
     
-    @IBAction func greenActionSlider(sender: AnyObject) {
+    @IBAction func greenActionSlider(_ sender: AnyObject) {
         setColors()
     }
     
-    @IBAction func blueActionSlider(sender: AnyObject) {
+    @IBAction func blueActionSlider(_ sender: AnyObject) {
         setColors()
     }
     
@@ -50,9 +50,9 @@ class ViewController: UIViewController {
     
     func setLabels() {
         
-        var fRedColor = String(format: "%0.0f", (redColor * 255))
-        var fGreenColor = String(format: "%0.0f", (greenColor * 255))
-        var fBlueColor = String(format: "%0.0f", (blueColor * 255))
+        let fRedColor = String(format: "%0.0f", (redColor * 255))
+        let fGreenColor = String(format: "%0.0f", (greenColor * 255))
+        let fBlueColor = String(format: "%0.0f", (blueColor * 255))
         
         redLabel.text = "Red: \(fRedColor)"
         greenLabel.text = "Green: \(fGreenColor)"

@@ -196,13 +196,17 @@
 				TargetAttributes = {
 					3D13A98E1D0F74CB00D5BA22 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LK662Y5U4K;
+						LastSwiftMigration = 0820;
 					};
 					3D13A9A51D0F74CB00D5BA22 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 3D13A98E1D0F74CB00D5BA22;
 					};
 					3D13A9B01D0F74CB00D5BA22 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 3D13A98E1D0F74CB00D5BA22;
 					};
 				};
@@ -403,10 +407,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
 				INFOPLIST_FILE = "Color Finder Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Color-Finder-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,10 +420,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LK662Y5U4K;
 				INFOPLIST_FILE = "Color Finder Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Color-Finder-Tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -429,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Color-Finder-TutorialTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Finder Tutorial.app/Color Finder Tutorial";
 			};
 			name = Debug;
@@ -441,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Color-Finder-TutorialTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Finder Tutorial.app/Color Finder Tutorial";
 			};
 			name = Release;
@@ -452,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Color-Finder-TutorialUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Color Finder Tutorial";
 			};
 			name = Debug;
@@ -463,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cynthia.whitlatch.Color-Finder-TutorialUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Color Finder Tutorial";
 			};
 			name = Release;
@@ -486,6 +498,7 @@
 				3D13A9BC1D0F74CB00D5BA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D13A9BD1D0F74CB00D5BA22 /* Build configuration list for PBXNativeTarget "Color Finder TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				3D13A9BF1D0F74CB00D5BA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D13A9C01D0F74CB00D5BA22 /* Build configuration list for PBXNativeTarget "Color Finder TutorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +516,7 @@
 				3D13A9C21D0F74CB00D5BA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
